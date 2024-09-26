@@ -1,0 +1,59 @@
+*{
+    user-select: none;
+    box-sizing: border-box;
+}
+body {  
+  height: 100vh;
+  margin: 0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  font-size: 50px;
+  background-image: url(https://picsum.photos/seed/picsum/200/300);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.abc{
+  display:flex;
+  width: 1000px;
+  background: grey;
+  gap:50px;
+  flex-wrap:wrap;
+  position:absolute;
+  justify-content:center;
+  bottom:0;
+  padding: 20px;  
+}
+.letter{
+  background:green;
+  border:1px solid black;
+  width:50px;
+  height: 50px;
+  display:flex;  
+  justify-content:center;
+  align-items:center;
+  cursor: pointer;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+.letter:hover{
+  background: white;
+  color: purple;
+  border: 5px dotted black;
+}
+.a{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.a *{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:  greenyellow;
+  border: 3px solid black;
+  height: 40px;
+  width: 50px;
+}
